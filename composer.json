@@ -1,0 +1,39 @@
+{
+    "name": "niveshsaharan/novalinkresource",
+    "description": "Custom links on your sidebar for Laravel Nova.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "link"
+    ],
+    "homepage": "https://github.com/niveshsaharan/nova-link-resource",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nivesh",
+            "email": "nivesh@centire.in",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NiveshSaharan\\NovaLinkResource\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NiveshSaharan\\NovaLinkResource\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
